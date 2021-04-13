@@ -1,0 +1,36 @@
+
+@include root;
+
+@media (prefers-color-scheme: dark) {
+    :root {
+          --border: rgba(255,255,255,0.4);
+          --background:#000000;
+          --navigation-text-color: #D7D7D7;
+          --active: #000000;
+          --body-text-color: #FFFFFF;
+          --header-color: #FFFFFF;
+
+
+    }
+    .btn--discover {
+          color: var(--active);
+    }
+    .eclipse {
+          background-color: var(--eclipse-color);
+    }
+}
+@media (prefers-color-scheme: light) {
+      :root {
+            --background: #FFFFFF;
+            --navigation-text-color:#D7D7D7 ;
+            --body-text-color:#4F4F4F;
+            --header-color: #215A50;
+            --eclipse-color: #FF8D28;
+            --eclipse-color-2: rgba(33,90,80,0.2);
+            --yellow:#E9BE4C;
+            --white: #FFFFFF;
+            --footer-nav-color: rgba(79,79,79,0.5);
+            --active: #FFFFFF;
+      }
+      
+}
