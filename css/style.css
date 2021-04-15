@@ -473,7 +473,7 @@ body {
 
 .product__overlay {
   width: 51.5rem;
-  height: 32.5rem;
+  height: 38.5rem;
   background-color: var(--header-color);
   position: absolute;
   z-index: -99999999;
@@ -485,10 +485,14 @@ body {
       height: 31.5rem; } }
   @media only screen and (max-width: 1200px) {
     .product__overlay {
-      width: 48rem; } }
+      width: 48.2rem; } }
   @media only screen and (max-width: 990px) {
     .product__overlay {
-      width: 45rem; } }
+      width: 43.4rem;
+      height: 40.5rem; } }
+  @media only screen and (max-width: 850px) {
+    .product__overlay {
+      width: 40.4rem; } }
   @media only screen and (max-width: 768px) {
     .product__overlay {
       width: 39rem; } }
