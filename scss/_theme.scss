@@ -9,7 +9,9 @@
           --active: #000000;
           --body-text-color: #FFFFFF;
           --header-color: #FFFFFF;
-
+          --black: #4F4F4F;
+          --footer-nav-color:rgba(255, 255, 255, 0.6);
+          --product-color:rgba(255, 255, 255, 0.5);
 
     }
     .btn--discover {
@@ -17,6 +19,62 @@
     }
     .eclipse {
           background-color: var(--eclipse-color);
+    }
+    ::selection {
+          background-color: var(--white);
+          color: var(--header-color);
+    }
+    .heading-secondary--white {
+          color: var(--eclipse-color);
+    }
+    .form__input {
+          background-color: #E7E7E7;
+    }
+    .form__button {
+          color: var(--white);
+    }
+    .section-copyright {
+      color: #4F4F4F;
+    }
+    .section-show {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    }
+    .footer {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    }
+    .nav-pills .nav-item a{
+          color: rgba(255, 255, 255, 0.5);
+    }
+    .product__box {
+      border: 1.5px solid #FFF;
+
+      &--green {
+            border: 1.5px solid var(--eclipse-color);
+            background-color: var(--eclipse-color);
+            color: var(--white);
+      }
+    }
+
+    .product__text {
+      color: rgba(255, 255, 255, 0.5);
+      &--white {
+            color: var(--white);
+      }
+    }
+    .cta--orange {
+          color: var(--white);
+    }
+    .btn--discover {
+          &,
+          &:link,
+          &:visited {
+                color: var(--white);
+          }
+    }
+    .product__box:hover {
+          background-color: #FF8D28;
+          border: 1px solid #FF8D28;
+         /*  box-shadow: 2px 1rem 1.5rem #FF8D28; */
     }
 }
 @media (prefers-color-scheme: light) {
@@ -31,6 +89,13 @@
             --white: #FFFFFF;
             --footer-nav-color: rgba(79,79,79,0.5);
             --active: #FFFFFF;
+
+            --product-color: #4F4F4F;
+      }
+
+      ::selection {
+            background-color: var(--header-color);
+            color: var(--white);
       }
       
 }

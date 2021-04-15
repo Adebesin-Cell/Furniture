@@ -1,3 +1,28 @@
+
+@mixin responsive($breakpoint) {
+      @if $breakpoint == phone {
+            @media only screen and (max-width:600px) {
+                  @content;
+            }
+      }
+      @if $breakpoint == tablet_port {
+            @media only screen and (max-width:900px){
+                  @content;
+            }
+      }
+      @if $breakpoint == tablet_land{
+            @media only screen and (max-width:1200px) {
+                  @content;
+            }
+      }
+      @if $breakpoint == big-desktop {
+            @media only screen and (min-width : 1800px) {
+                  @content;
+            }
+      }
+
+}
+
 @mixin base {
       *,
       *::before,
@@ -10,6 +35,17 @@
             font-size:62.5%;
             box-sizing:border-box;
             scroll-behavior: smooth;
+            backface-visibility: hidden;
+
+            @include responsive (tablet_land) {
+                  font-size: 56.25%;
+            }
+            @include responsive (tablet_port) {
+                  font-size: 50%;
+            }
+            @include responsive(big-desktop) {
+                  font-size:  75%;
+            }
       }
       body {
             font-family: "Poppins", sans-serif;
@@ -18,8 +54,8 @@
             font-weight: 300;
             background-color: var(--background);
             overflow-x: hidden;
+            backface-visibility: hidden;
       }
-
       
 }
 
@@ -37,7 +73,11 @@
             --white: #FFFFFF;
             --footer-nav-color: rgba(79,79,79,0.5);
             --border: rgba(33,90,80,0.4);
-            --red: #ffd6d6;
+            --red: rgb(255,55,55);
+            --black: #000000;
+            overflow-x: hidden;
+            --gray: rgba(79,79,79,.5);
+            
       }
 }
 
@@ -48,3 +88,4 @@
             height: 2.4rem;
       }
 }
+
