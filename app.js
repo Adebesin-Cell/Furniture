@@ -5,7 +5,6 @@ const linkItem = document.querySelectorAll(".mobile-header__navigation li");
 const navigationLink = document.querySelectorAll(".mobile-header__navigation__link");
 const buttonBox = document.querySelector(".mobile-header__btn-box");
 
-// console.log(harmburger, closeButton, headerBox, linkItem);
 harmburger.addEventListener("click", () => {
       headerBox.classList.add("open");
       linkItem.forEach(link => {
@@ -20,11 +19,6 @@ closeButton.addEventListener("click", () => {
       })
 })
 
-// navigationLink.addEventListener ("click", () => {
-//       navigationLink.forEach(navLink => {
-//             navLink.classList.remove("open");
-//       })
-// })
 buttonBox.addEventListener ("click", () => {
       headerBox.classList.remove("open");
 })
