@@ -1,101 +1,59 @@
-
-@include root;
-
 @media (prefers-color-scheme: dark) {
-    :root {
-          --border: rgba(255,255,255,0.4);
-          --background:#000000;
-          --navigation-text-color: #D7D7D7;
-          --active: #000000;
-          --body-text-color: #FFFFFF;
-          --header-color: #FFFFFF;
-          --black: #4F4F4F;
-          --footer-nav-color:rgba(255, 255, 255, 0.6);
-          --product-color:rgba(255, 255, 255, 0.5);
-
-    }
-    .btn--discover {
-          color: var(--active);
-    }
-    .eclipse {
-          background-color: var(--eclipse-color);
-    }
-    ::selection {
-          background-color: var(--white);
-          color: var(--header-color);
-    }
-    .heading-secondary--white {
-          color: var(--eclipse-color);
-    }
-    .form__input {
-          background-color: #E7E7E7;
-    }
-    .form__button {
-          color: var(--white);
-    }
-    .section-copyright {
-      color: #4F4F4F;
-    }
-    .section-show {
-      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
-    }
-    .footer {
-      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
-    }
-    .nav-pills .nav-item a{
-          color: rgba(255, 255, 255, 0.5);
-    }
-    .product__box {
-      border: 1.5px solid #FFF;
-
-      &--green {
-            border: 1.5px solid var(--eclipse-color);
-            background-color: var(--eclipse-color);
-            color: var(--white);
-      }
-    }
-
-    .product__text {
-      color: rgba(255, 255, 255, 0.5);
-      &--white {
-            color: var(--white);
-      }
-    }
-    .cta--orange {
-          color: var(--white);
-    }
-    .btn--discover {
-          &,
-          &:link,
-          &:visited {
-                color: var(--white);
-          }
-    }
-    .product__box:hover {
-          background-color: #FF8D28;
-          border: 1px solid #FF8D28;
-         /*  box-shadow: 2px 1rem 1.5rem #FF8D28; */
-    }
+  :root {
+    --bg-white: #000000;
+    --body-bg: #000000;
+    --bg-overlay-green: #ffffff;
+    --logo-white: #000000;
+    --logo-green: #ffffff;
+    --header-text: #ffffff;
+    --paragraph-text: #ffffff;
+    --search-white: #000000;
+    --cart-white: #000000;
+    --link: #d7d7d7;
+    --link-bg: #000000;
+    --heading-green: #ffffff;
+    --heading-eclipse: #ff8d28;
+    --bg-green: #ffffff;
+    --border: #ffffff66;
+    --selection-bg: #ffffff;
+    --selection-text: #000000;
+    --btn-signup: #000000;
+    --card-line: #ff8d28;
+    --newsletter-header: #ff8d28;
+    --newsletter-paragraph: #000000;
+    --form: #e7e7e7;
+    --footer-header: #ffffff99;
+    --footer-link: #ffffff99;
+    --footer-icon: #ffffff;
+  }
 }
+
 @media (prefers-color-scheme: light) {
-      :root {
-            --background: #FFFFFF;
-            --navigation-text-color:#D7D7D7 ;
-            --body-text-color:#4F4F4F;
-            --header-color: #215A50;
-            --eclipse-color: #FF8D28;
-            --eclipse-color-2: rgba(33,90,80,0.2);
-            --yellow:#E9BE4C;
-            --white: #FFFFFF;
-            --footer-nav-color: rgba(79,79,79,0.5);
-            --active: #FFFFFF;
-
-            --product-color: #4F4F4F;
-      }
-
-      ::selection {
-            background-color: var(--header-color);
-            color: var(--white);
-      }
-      
+  :root {
+    --bg-white: #ffffff;
+    --body-bg: #efefef;
+    --bg-overlay-green: #215a50;
+    --logo-white: #ffffff;
+    --logo-green: #215a50;
+    --header-text: #215a50;
+    --paragraph-text: #4f4f4f;
+    --search-white: #ffffff;
+    --cart-white: #ffffff;
+    --link: #d7d7d7;
+    --link-bg: #ffffff;
+    --heading-green: #215a50;
+    --heading-eclipse: #215a5033;
+    --bg-green: #215a50;
+    --border: #215a5066;
+    --selection-bg: #215a50;
+    --selection-text: #ffffff;
+    --btn-signup: #ff8d28;
+    --card-line: #215a50;
+    --newsletter-header: #ffffff;
+    --newsletter-paragraph: #ffffff;
+    --form: #ffffff;
+    --footer-header: #4f4f4f;
+    --footer-link: #4f4f4f80;
+    --footer-icon: #215a50;
+  }
 }
