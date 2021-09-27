@@ -227,6 +227,17 @@ body {
   }
 }
 
+.header__logo-link {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__logo-link svg {
+    width: 100px;
+  }
+}
+
 .header__overlay {
   position: absolute;
   right: 0%;
@@ -364,6 +375,51 @@ body {
 
 .header__link:hover {
   color: var(--link-bg);
+}
+
+.header__icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__icon {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__icon svg {
+    width: 36px;
+    height: 36px;
+    fill: var(--bg-white);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__icon svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--bg-green);
+  }
 }
 
 .section-intro {
@@ -548,6 +604,12 @@ body {
   height: 300px;
 }
 
+@media only screen and (max-width: 600px) {
+  .products__overlay--left {
+    width: 100px;
+  }
+}
+
 .products__overlay--right {
   position: absolute;
   z-index: 1;
@@ -558,6 +620,12 @@ body {
   background-size: cover;
   width: 500px;
   height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .products__overlay--right {
+    width: 100px;
+  }
 }
 
 .products__wrapper {
@@ -1186,7 +1254,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .footer__logo-link {
-    width: 150px;
+    width: 120px;
   }
 }
 
@@ -1213,6 +1281,12 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .footer__socials-list {
+    justify-content: initial;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .footer__socials-item:not(:last-child) {
     margin-right: var(--span-s);
   }
@@ -1222,6 +1296,13 @@ body {
   display: inline-block;
   text-decoration: none;
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer__icon svg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .footer__extra {
