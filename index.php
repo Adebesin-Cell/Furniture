@@ -264,6 +264,26 @@
                 <img src="images/gallery--6.png" alt="gallery" class="gallery__image">
             </div>
         </div>
+        <div class="mobile-gallery">
+            <div class="mobile-gallery__box mobile-gallery__box--1">
+                <img src="images/gallery--1.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+            <div class="mobile-gallery__box mobile-gallery__box--2">
+                <img src="images/gallery--2.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+            <div class="mobile-gallery__box mobile-gallery__box--3">
+                <img src="images/gallery--3.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+            <div class="mobile-gallery__box mobile-gallery__box--4">
+                <img src="images/gallery--4.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+            <div class="mobile-gallery__box mobile-gallery__box--5">
+                <img src="images/gallery--5.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+            <div class="mobile-gallery__box mobile-gallery__box--6">
+                <img src="images/gallery--6.png" alt="gallery" class="mobile-gallery__image">
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div class="container">
