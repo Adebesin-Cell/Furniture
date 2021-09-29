@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="
+            4niture allows you to design your comfort zone in style. We manufacture and sell furniture, textiles and related goods to residences, offices, hotels and others in the commercial space. Offerings include upholstery, case goods, bedding, seating, hearth products, and fabrics.
+    ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/hero.png" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
