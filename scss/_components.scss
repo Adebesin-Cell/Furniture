@@ -177,13 +177,15 @@
 
   &__icon {
     display: none;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 1024px) {
       display: flex;
       align-items: center;
       justify-content: flex-end;
       cursor: pointer;
       position: relative;
       z-index: 2;
+      width: 72px;
+      height: 72px;
     }
     @media only screen and (max-width: 768px) {
       width: 64px;
@@ -195,7 +197,7 @@
     }
 
     svg {
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 1024px) {
         width: 36px;
         height: 36px;
         fill: var(--bg-white);
