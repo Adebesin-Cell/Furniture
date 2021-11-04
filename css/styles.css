@@ -62,6 +62,8 @@
     --overview-overlay: #ffffff;
     --overview-card-border: #ffffff;
     --overview-card-background: #ff8d28;
+    --overview-icon-white: #ffffff;
+    --overview-icon: #ffffff80;
     --overview-text: #ffffff80;
     --newsletter-header: #ff8d28;
     --newsletter-paragraph: #000000;
@@ -100,6 +102,7 @@
     --overview-card-border: #4f4f4fb3;
     --overview-card-background: #215a50;
     --overview-icon-white: #ffffff;
+    --overview-icon: #4f4f4f;
     --overview-text: #4f4f4f80;
     --newsletter-paragraph: #ffffff;
     --form: #ffffff;
