@@ -62,6 +62,7 @@
     --overview-overlay: #ffffff;
     --overview-card-border: #ffffff;
     --overview-card-background: #ff8d28;
+    --overview-card-hover: #ff8d28;
     --overview-icon-white: #ffffff;
     --overview-icon: #ffffff80;
     --overview-text: #ffffff80;
@@ -101,6 +102,7 @@
     --overview-overlay: #215a50;
     --overview-card-border: #4f4f4fb3;
     --overview-card-background: #215a50;
+    --overview-card-hover: #215a50;
     --overview-icon-white: #ffffff;
     --overview-icon: #4f4f4f;
     --overview-text: #4f4f4f80;
@@ -958,6 +960,7 @@ body {
 
 .overview__card:hover {
   background: var(--overview-card-background);
+  border: 1.5px solid var(--overview-card-hover);
 }
 
 .overview__card:hover .overview__icon svg path {
